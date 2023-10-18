@@ -37,7 +37,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build with Astro
-        run: |
+        run: C:\Windows\System32\paginaAstro\node_modules\.bin
           astro build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
